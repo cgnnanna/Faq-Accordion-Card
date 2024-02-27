@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+    font-size: 12px;
+}
+
+#faqPageWrapper {
+    background: linear-gradient(to right, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    padding: 10% 20%;
+    width: 100vw;
+    height: 100vh;
+}
+
+#faqContentBox {
+    background-color: white;
+    position: relative;
+    padding-right: 0;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#illustrationWrapper {
+    position: relative;
+    width: 60%;
+    height: 80%;
+    background-repeat: no-repeat;
+    z-index: 2;
+    /* overflow: visible; */
+    /* Set a higher z-index to appear on top of the background-box */
+}
+
+#firstImage,
+#secondImage,
+#thirdImage {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#secondImage {
+    width: 380px;
+    z-index: 2;
+    bottom: 1%;
+    left: -10%;
+    /* Set a z-index between firstImage and thirdImage */
+    overflow: hidden;
+}
+
+#thirdImage {
+    width: 130%;
+    bottom: -30%;
+    left: -45%;
+    z-index: 1;
+    /* Set the lowest z-index to appear behind other images */
+}
+
+#firstImage {
+    width: 150px;
+    top: 42%;
+    /* transform: translateY(-30%); */
+    z-index: 3;
+    left: 15%;
+}
+
+#faqWordsWrapper {
+    width: 60%;
+}
+
+#faqWordsWrapperHeading {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 15px;
+    color: hsl(237, 12%, 33%);
+}
+
+.faqsBox {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5% 0;
+    border-bottom: 0.1mm solid hsl(240, 5%, 91%);
+}
+
+.faqsPointer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(240, 6%, 50%);
+}
+
+.faqAnswer {
+    display: none;
+    color: hsl(240, 6%, 50%);
+    text-align: left;
+    margin-top: 10px;
+}
+
+.active-faq {
+    color: hsl(237, 12%, 33%);
+    font-weight: 700;
+}

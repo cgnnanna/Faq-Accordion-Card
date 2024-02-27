@@ -1,0 +1,288 @@
+@media only screen and (max-width: 576px) {
+    #faqPageWrapper {
+        padding: 30% 5%;
+        width: 100vw;
+        height: 180vh;
+    }
+
+    #faqContentBox {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-items: center;
+        overflow: visible;
+    }
+
+    #illustrationWrapper {
+        width: 100%;
+        height: 30%;
+        bottom: 0;
+        left: 0
+    }
+
+    #secondImage {
+        width: 70%;
+        bottom: 50%;
+        left: 15%;
+    }
+
+    #thirdImage {
+        width: 80%;
+        bottom: 20%;
+        left: 10%;
+    }
+
+    #firstImage {
+        width: 120px;
+        top: 15%;
+        left: 20%;
+    }
+
+    #faqWordsWrapper {
+        padding: 0 10%;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+    }
+
+    .faqsBox {
+        width: 100%;
+    }
+
+    #faqWordsWrapperHeading {
+        font-size: 80px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .faqsPointer {
+        margin-bottom: 2%;
+    }
+
+    .faqsPointer p,
+    .faqAnswer {
+        font-size: 18px;
+    }
+
+    .faqAnswer {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    #faqPageWrapper {
+        padding: 30% 5%;
+        width: 100vw;
+        height: 220vh;
+    }
+
+    #faqContentBox {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-items: center;
+        overflow: visible;
+    }
+
+    #illustrationWrapper {
+        width: 100%;
+        height: 30%;
+        bottom: 0;
+        left: 0
+    }
+
+    #secondImage {
+        width: 65%;
+        bottom: 40%;
+        left: 15%;
+    }
+
+    #thirdImage {
+        width: 65%;
+        bottom: 20%;
+        left: 15%;
+    }
+
+    #firstImage {
+        width: 120px;
+        top: 25%;
+        left: 20%;
+    }
+
+    #faqWordsWrapper {
+        padding: 10% 10%;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+    }
+
+    .faqsBox {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    #faqWordsWrapperHeading {
+        font-size: 60px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .faqsPointer {
+        margin-bottom: 2%;
+    }
+
+    .faqsPointer p,
+    .faqAnswer {
+        font-size: 18px;
+    }
+
+    .faqAnswer {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    #faqPageWrapper {
+        padding: 40% 5% 5%;
+        width: 100vw;
+        height: 300vh;
+    }
+
+    #faqContentBox {
+        width: 100%;
+        height: 80%;
+        flex-direction: column;
+        justify-items: center;
+        overflow: visible;
+    }
+
+    #illustrationWrapper {
+        width: 100%;
+        height: 30%;
+        bottom: 0;
+        left: 0
+    }
+
+    #secondImage {
+        width: 60%;
+        bottom: 40%;
+        left: 20%;
+    }
+
+    #thirdImage {
+        width: 65%;
+        bottom: 15%;
+        left: 18%;
+    }
+
+    #firstImage {
+        width: 120px;
+        top: 50%;
+        left: 25%;
+    }
+
+    #faqWordsWrapper {
+        padding: 5% 10%;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+    }
+
+    .faqsBox {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    #faqWordsWrapperHeading {
+        font-size: 100px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .faqsPointer {
+        margin-bottom: 2%;
+    }
+
+    .faqsPointer p,
+    .faqAnswer {
+        font-size: 25px;
+    }
+
+    .faqAnswer {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    #faqPageWrapper {
+        padding: 10% 15%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #faqContentBox {
+        padding-right: 0;
+        border-radius: 20px;
+        text-align: center;
+        width: 100%;
+        height: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    #illustrationWrapper {
+        position: relative;
+        width: 60%;
+        height: 80%;
+        background-repeat: no-repeat;
+        z-index: 2;
+    }
+
+    #secondImage {
+        width: 380px;
+        z-index: 2;
+        bottom: 1%;
+        left: -10%;
+        /* Set a z-index between firstImage and thirdImage */
+        overflow: hidden;
+    }
+
+    #thirdImage {
+        width: 130%;
+        bottom: -30%;
+        left: -45%;
+        z-index: 1;
+        /* Set the lowest z-index to appear behind other images */
+    }
+
+    #firstImage {
+        width: 150px;
+        top: 42%;
+        /* transform: translateY(-30%); */
+        z-index: 3;
+        left: 9%;
+    }
+
+    #faqWordsWrapper {
+        width: 60%;
+    }
+
+    #faqWordsWrapperHeading {
+        font-size: 25px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .faqsBox {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5% 0;
+    }
+}
